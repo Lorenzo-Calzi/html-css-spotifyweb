@@ -1,6 +1,5 @@
 .container_site{
     width: 100%;
-    height: 100vh;
     /* background-color: red; */
     display: flex;
     justify-content: flex-end;
@@ -16,7 +15,7 @@
 }
 
 .main {
-    width: 85%; 
+    width: 85%;
     background-color: rgba(20, 25, 34, 1); 
 }
 
@@ -30,6 +29,7 @@
 }
 
 /* MAIN */
+/* TITLE */
 .title{
     background-color: rgba(8, 11, 18, 1);
     display: flex;
@@ -46,7 +46,9 @@
     border-radius: 25px;
     margin-right: 5px;
 }
+/* /TITLE */
 
+/* GENERI */
 .generi{
     display: flex;
     justify-content: center;
@@ -62,16 +64,24 @@
     color: rgba(125, 127, 132, 1);
 }
 
-.content h3{
+.title_categories h3{
     margin-left: 30px;
-    margin-bottom: 30px;
     color: white;
     font-weight: 600;
 }
 
+.title_categories p{
+    color: rgba(125, 127, 132, 1);
+    margin-left: 30px;
+}
+/* /GENERI */
+
+/* ALBUMS */
 .albums{
     display: flex;
     margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .cover{
@@ -90,6 +100,21 @@
     font-size: 15px;
     text-align: center;
 }
+
+.for_you img{
+    height: 177px; 
+}
+.circle img{
+    height: 177px;
+    border-radius: 50%;
+    margin-bottom: 100px;
+}
+/* /ALBUMS */
+
+
+
+
+
 /* /MAIN */
 
 /* SIDEBAR */
