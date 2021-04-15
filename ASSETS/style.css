@@ -16,7 +16,8 @@
 }
 
 .main {
-    width: 85%;  
+    width: 85%; 
+    background-color: rgba(20, 25, 34, 1); 
 }
 
 .player{
@@ -28,7 +29,6 @@
     background-color: rgba(40, 40, 40, 1);
 }
 
-
 /* MAIN */
 .title{
     background-color: rgba(8, 11, 18, 1);
@@ -38,12 +38,57 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.title span{
+.title a{
+    text-decoration: none;
     color: white;
     border: 1px solid white;
     padding: 10px 40px 10px 40px;
     border-radius: 25px;
     margin-right: 5px;
+}
+
+.generi{
+    display: flex;
+    justify-content: center;
+}
+
+.content ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.content .generi ul li a{
+    text-decoration: none;
+    color: rgba(125, 127, 132, 1);
+}
+
+.content h3{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.albums{
+    display: flex;
+    margin-left: 30px;
+}
+
+.cover{
+    margin-right: 30px;
+}
+
+.cover h5{
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cover h6{
+    color: rgba(125, 127, 132, 1);
+    font-size: 15px;
+    text-align: center;
 }
 /* /MAIN */
 
@@ -70,7 +115,7 @@
 }
 /* /LOGO */
 
-/* CATEGORIA */
+/* SEZIONI */
 .sidebar ul{
     list-style: none;
     padding-left: 0;
@@ -80,15 +125,15 @@
     margin-bottom: 10px;
 }
 
-.categoria ul li img{
+.sezioni ul li img{
     height: 25px;
     padding-right: 10px;  
 }
 
-.categoria ul li span{
+.sezioni ul li span{
     font-size: 13px;
 }
-/* /CATEGORIA */
+/* /SEZIONI */
 
 /* PLAYLIST */
 .playlist h3{
