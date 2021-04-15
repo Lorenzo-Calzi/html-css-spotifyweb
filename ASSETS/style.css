@@ -1,0 +1,109 @@
+.title{
+    color: white;
+    background-color: rgba(8, 11, 18, 1);
+}
+
+.sidebar {
+    height: 100vh;
+    width: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+.main {
+    margin-left: 270px;      
+}
+
+.content{
+    width: 90%;
+    position: absolute;
+    right: 0;
+    background-color: red;
+}
+
+.player{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(40, 40, 40, 1);
+}
+
+
+/* SIDEBAR */
+.sidebar{
+    font-weight: 600;
+}
+
+/* LOGO */
+.logo{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.logo img{
+    height: 45px;
+}
+/* /LOGO */
+
+/* CATEGORIA */
+.sidebar ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar ul li{
+    margin-bottom: 10px;
+    color: rgba(113, 113, 113, 1);
+}
+
+.categoria ul li img{
+    height: 25px;
+    padding-right: 10px;  
+}
+
+.categoria ul li span{
+    font-size: 13px;
+}
+/* /CATEGORIA */
+
+/* PLAYLIST */
+.playlist h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.playlist i{
+    font-size: 50px;
+    color: grey;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.square{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(163, 163, 163, 1);
+    font-size: 35px;
+    padding-bottom: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.add span{
+    color: rgba(113, 113, 113, 1);
+}
+
+
+  
