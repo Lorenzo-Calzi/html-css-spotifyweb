@@ -7,6 +7,7 @@
     <title>Spotify Web</title>
     <!-- LINK BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <!-- LINK CSS -->
     <link rel="stylesheet" href="./ASSETS/style.css">
     <!-- LINK FONT AWESOME -->
@@ -30,9 +31,9 @@
                         <!-- SEZIONI -->
                         <div class="sezioni align-items-center">
                             <ul>
-                                <li><img src="./img/home.svg" alt=""><span>Home</span></li>
-                                <li><img src="./img/search.svg" alt=""><span>Cerca</span></li>
-                                <li><img src="./img/libreria.svg" alt=""><span>La tua libreria</span></li>
+                                <li class="animation_white"><img src="./img/home.svg" alt=""><span>Home</span></li>
+                                <li class="animation_white"><img src="./img/search.svg" alt=""><span>Cerca</span></li>
+                                <li class="animation_white"><img src="./img/libreria.svg" alt=""><span>La tua libreria</span></li>
                             </ul>
                         </div>
                         <!-- /SEZIONI -->
@@ -41,17 +42,17 @@
                         <div class="playlist">
                             <h3>PLAYLIST</h3>
                             <span class="add">
-                                <div class="square"><strong>+</strong></div>
-                                <span>Crea Playlist</span>
+                                <div class="square animation_white"><strong>+</strong></div>
+                                <span class="animation_white">Crea Playlist</span>
                             </span>
                             <ul>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
+                                <li class="animation_white">Nome Playlist</li>
+                                <li class="animation_white">Nome Playlist</li>
+                                <li class="animation_white">Nome Playlist</li>
+                                <li class="animation_white">Nome Playlist</li>
+                                <li class="animation_white">Nome Playlist</li>
+                                <li class="animation_white">Nome Playlist</li>
+                                <li class="animation_white">Nome Playlist</li>
                             </ul>
                         </div>
                         <!-- /PLAYLIST -->
@@ -63,7 +64,7 @@
                         <div class="profile">
                             <div class="profile_top">
                                 <img src="./img/download.svg" alt="icona download">
-                                <span>Installa app</span>
+                                <span class="animation_white">Installa app</span>
                             </div>
                             <hr>
                             <div class="profile_bottom">
@@ -74,7 +75,6 @@
                         <!-- /PROFILE -->
 
                     </div>
-        
                 </div>
             </div> 
             
@@ -83,7 +83,7 @@
 
               <!-- TITLE -->
               <div class="title text-uppercase">
-                <a href="#">Effettua l'upgrade</a>
+                <a class="cursor" href="#">Effettua l'upgrade</a>
               </div>
               <!-- /TITLE -->
     
@@ -92,12 +92,12 @@
                     <!-- GENERI -->
                     <div class="generi">
                         <ul class="text-uppercase">
-                            <li><a href="#">In evidenza</a></li>
-                            <li><a href="#">Podcast</a></li>
-                            <li><a href="#">Classifiche</a></li>
-                            <li><a href="#">Generi e Mood</a></li>
-                            <li><a href="#">Nuove Uscite</a></li>
-                            <li><a href="#">Scopri</a></li>
+                            <li class="animation_white">In evidenza</li>
+                            <li class="animation_white">Podcast</li>
+                            <li class="animation_white">Classifiche</li>
+                            <li class="animation_white">Generi e Mood</li>
+                            <li class="animation_white">Nuove Uscite</li>
+                            <li class="animation_white">Scopri</li>
                         </ul>
                     </div>
                     <!-- /GENERI -->
@@ -113,9 +113,15 @@
                 <!-- ALBUMS -->
                 <div class="albums">
                     <div class="cover">
-                        <img src="./img/metal_lifting.jpg" alt="cover metal">
+                        <div class="cover_img">
+                            <img src="./img/metal_lifting.jpg" alt="cover metal"> 
+                            <div class="button_play">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                        </div>
                         <h5>Heavy Metal</h5>
                         <h6>Subtitle</h6>
+                        
                     </div>
 
                     <div class="cover">
@@ -162,12 +168,12 @@
                 <!-- ALBUMS -->
                 <div class="albums">
                     <div class="cover">
-                        <img src="./img/radar.jpeg" class="img-fluid" alt="cover release radar">  
+                        <img src="./img/radar.jpeg" alt="cover release radar">  
                         <h5>Release Radar</h5>
                     </div>
     
                     <div class="cover">
-                        <img src="./img/mixdaily.jpeg" class="img-fluid" alt="cover daily mix">
+                        <img src="./img/mixdaily.jpeg" alt="cover daily mix">
                         <h5>Daily Mix</h5>
                     </div>
                 </div>
@@ -183,12 +189,12 @@
                 <!-- ALBUMS -->
                 <div class="albums">
                     <div class="cover circle">
-                        <img src="./img/youg.jpeg" class="img-fluid" alt="cover cure">  
+                        <img src="./img/youg.jpeg" alt="cover Lana del Rey">  
                         <h5>Release Radar</h5>
                     </div>
     
                     <div class="cover circle">
-                        <img src="./img/einaudi.jpeg" class="img-fluid" alt="cover sinister">
+                        <img src="./img/einaudi.jpeg" alt="cover Einaudi">
                         <h5>Daily Mix</h5>
                     </div>
                 </div>
@@ -204,11 +210,11 @@
                 <img src="./img/sinister.jpeg" alt=".copertina disco sinister">
                 <div class="song_title">
                     <h5>Sinister</h5>
-                    <span>Brano Nome</span>  
+                    <span class="animation_white">Brano Nome</span>  
                 </div>
                 <div class="player_icon">
-                    <i class="far fa-heart"></i>
-                    <i class="far fa-folder"></i>  
+                    <i class="far fa-heart animation_white"></i>
+                    <i class="far fa-folder animation_white"></i>  
                 </div> 
             </div>
             <!-- /PLAYER LEFT -->
@@ -216,11 +222,11 @@
             <!-- PLAYER CENTER -->
             <div class="player_center">
                 <div class="top_center">
-                    <i class="fas fa-random"></i>
-                    <i class="fas fa-step-backward"></i>
-                    <i class="far fa-play-circle"></i>
-                    <i class="fas fa-step-forward"></i>
-                    <i class="fas fa-redo-alt"></i>
+                    <i class="fas fa-random cursor"></i>
+                    <i class="fas fa-step-backward cursor"></i>
+                    <i class="far fa-play-circle cursor"></i>
+                    <i class="fas fa-step-forward cursor"></i>
+                    <i class="fas fa-redo-alt cursor"></i>
                 </div>
 
                 <div class="bottom_center">
@@ -237,9 +243,9 @@
 
             <!-- PLAYER RIGHT -->
             <div class="player_right">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-desktop"></i>
-                <i class="fas fa-volume-up"></i>
+                <i class="bi bi-list-ul cursor"></i>
+                <i class="fas fa-desktop cursor"></i>
+                <i class="fas fa-volume-up cursor"></i>
                 <div class="range_bar">
                     <div class="range">
 
