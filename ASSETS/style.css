@@ -95,19 +95,21 @@ main::after{
     color: rgba(125, 127, 132, 1);
     margin-left: 30px;
 }
+.generi ul li:after{
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: rgba(20, 25, 34, 1);
+    content: "\f144";
+    margin: auto;
+}
+.generi ul li:first-child::after{
+    background-color: rgba(173, 255, 47, 1)
+}
 /* /Generi */
 
 /* Albums */
-.albums{
-    display: flex;
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.cover{
-    margin-right: 30px;
-}
-.cover_img img:hover{
+.cover img:hover{
     cursor: pointer;
     opacity: 0.5;
 }
@@ -116,10 +118,7 @@ main::after{
 }
 .cover_img{
     position: relative;
-}
-.cover_img img{
-    height: 177px;   
-}
+} 
 .button_play i{
     color: white;
     font-size: 50px;
@@ -177,7 +176,17 @@ main::after{
 .sezioni ul li span{
     font-size: 13px;
 }
-
+.sezioni ul li:before{
+    display: inline-block;
+    width: 2px;
+    height: 28px;
+    margin-right: 10px;
+    background-color: black;
+    content: "\f144";
+}
+.sezioni ul li:first-child::before{
+    background-color: rgba(173, 255, 47, 1);
+}
 /* .sezioni ul li:first-child{
     border-left: 1px solid green;
 } */
@@ -197,8 +206,8 @@ main::after{
 }
 .playlist ul li{
     font-size: 15px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 13px;
+    margin-top: 12px;
 }
 .add{
     display: flex;
@@ -226,6 +235,8 @@ main::after{
 }
 hr{
     background-color: rgba(113, 113, 113, 1);
+    margin-top: 10px;
+    margin-bottom: 12px;
 }
 .profile_bottom img{
     height:30px;
