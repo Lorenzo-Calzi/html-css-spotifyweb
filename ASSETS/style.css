@@ -72,7 +72,7 @@ main::after{
     border: 1px solid white;
     padding: 10px 40px 10px 40px;
     border-radius: 25px;
-    margin-right: 5px;
+    margin-right: 20px;
 }
 /* /Title */
 
@@ -87,13 +87,15 @@ main::after{
     margin: 20px;
 }
 .title_categories h3{
-    margin-left: 30px;
     color: white;
     font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 25px;
 }
 .title_categories p{
     color: rgba(125, 127, 132, 1);
-    margin-left: 30px;
+    margin-left: 25px;
 }
 .generi ul li:after{
     display: block;
@@ -146,6 +148,49 @@ main::after{
 /* /CONTENT */
 
 /* SIDEBAR */
+/* Loghi Nascosti */
+.hidden_logos{
+    display: none;
+    text-align: center;
+}
+.hidden_logos img{
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px
+}
+.hidden_top ul li img{
+    margin-top: 0;
+}
+.hidden_bottom img:first-child{
+    height: 20px;
+}
+.hidden_bottom img:last-child{
+    background-color: rgba(113, 113, 113, 1);
+    border-radius: 50%;
+    padding: 0 2px 0 2px;
+}
+@media screen and (max-width:576px){
+    .sidebar{
+        width: 50px;
+    }
+    .content{
+        width: calc(100% - 50px);   
+    }
+    .hidden_top{
+        height: calc(100vh - 190px);
+    }
+    .sidebar_top{
+        display: none;
+    }
+    .sidebar_bottom{
+        display: none;
+    }
+    .hidden_logos{
+        display: block;
+    }
+}
+/* /Loghi Nascosti */
+
 /* Logo */
 .logo{
     display: flex;
@@ -159,9 +204,6 @@ main::after{
 /* /Logo */
 
 /* Sezioni */
-/* .sidebar_top{
-    height: calc(100vh - 195px);
-} */
 .sidebar ul{
     list-style: none;
     padding-left: 0;
@@ -187,9 +229,6 @@ main::after{
 .sezioni ul li:first-child::before{
     background-color: rgba(173, 255, 47, 1);
 }
-/* .sezioni ul li:first-child{
-    border-left: 1px solid green;
-} */
 /* /Sezioni */
 
 /* Playlist */
@@ -212,7 +251,7 @@ main::after{
 .add{
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 .square{
     display: flex;
