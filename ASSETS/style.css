@@ -1,14 +1,13 @@
+/* GENERAL RULES */
 @font-face {
     font-family: 'IlMioFont';
     src: url('./GothamBook.ttf');
 }
-
 .container_site{
     font-family: 'IlMioFont';
     width: 100%;
     height: 100vh;
-}
-  
+}  
 main{
     height: calc(100vh - 100px);
     overflow: hidden;
@@ -18,7 +17,7 @@ main::after{
     display: table;
     clear: both;
 }
-  
+ 
 .sidebar{
     float: left;
     width: 230px;
@@ -27,11 +26,9 @@ main::after{
     font-weight: 600;
     overflow-y: auto;
 }
-
 .gray_text{
     color: rgba(113, 113, 113, 1)
-}
-  
+} 
 .content{
     float: left;
     width: calc(100% - 230px);
@@ -39,8 +36,7 @@ main::after{
     background-color: rgba(20, 25, 34, 1);
     overflow-y: auto;
     overflow-x: hidden;
-}
-  
+} 
 .player{
     height: 100px;
     background-color: rgba(40, 40, 40, 1);
@@ -48,12 +44,12 @@ main::after{
     justify-content: space-between;
     align-items: center;
 }
-
 .animation_white:hover{
     color: white;
     transition: 10ms;
     cursor: pointer;
 }
+/* /GENERAL RULES */
 
 /* MAIN */
 /* CONTENT */
@@ -73,6 +69,7 @@ main::after{
     padding: 10px 40px 10px 40px;
     border-radius: 25px;
     margin-right: 20px;
+    font-weight: 600;
 }
 /* /Title */
 
@@ -86,6 +83,7 @@ main::after{
 .content ul li{
     display: inline-block;
     margin: 20px;
+    font-weight: 600;
 }
 .generi ul{
     margin-bottom: 0;
@@ -100,6 +98,7 @@ main::after{
 }
 .title_categories p{
     color: rgba(125, 127, 132, 1);
+    font-weight: 600;
     margin-left: 25px;
     margin-bottom: 5px;
 }
@@ -140,12 +139,14 @@ main::after{
 .cover h5{
     color: white;
     font-size: 15px;
+    font-weight: 600;
     text-align: center;
     margin-top: 10px;
 }
 .cover h6{
     color: rgba(125, 127, 132, 1);
     font-size: 13px;
+    font-weight: 600;
     text-align: center;
 }
 .circle img{
@@ -217,6 +218,7 @@ main::after{
 }
 .sidebar ul li{
     margin-bottom: 10px;
+    font-weight: 600;
 }
 .sezioni ul li img{
     height: 25px;
@@ -224,6 +226,7 @@ main::after{
 }
 .sezioni ul li span{
     font-size: 13px;
+    font-weight: 600;
 }
 .sezioni ul li:before{
     display: inline-block;
@@ -242,6 +245,7 @@ main::after{
 .playlist h3{
     font-size: 15px;
     margin-bottom: 15px;
+    font-weight: 600;
     color: white;
 }
 .playlist ul{
@@ -253,6 +257,7 @@ main::after{
     font-size: 15px;
     margin-bottom: 13px;
     margin-top: 12px;
+    font-weight: 600;
 }
 .add{
     display: flex;
@@ -292,9 +297,11 @@ hr{
 .profile_bottom span{
     color: white;
     margin-left: 10px;
+    font-weight: 600;
 }
 /* /Profile */
 /* /SIDEBAR */
+/* /MAIN */
 
 /* PLAYER */
 /* Player Left */
@@ -314,6 +321,7 @@ hr{
 .song_title{
     margin-left: 10px;
     margin-right: 40px;
+    font-weight: 600;
 }
 .song_title h5{
     margin-bottom: 0;
@@ -428,7 +436,6 @@ hr{
 }
 /* /Player Right */
 /* /PLAYER */
-/* /MAIN */
 
 
 
