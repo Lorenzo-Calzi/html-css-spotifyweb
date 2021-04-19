@@ -116,9 +116,9 @@ main::after{
 /* /Generi */
 
 /* Albums */
-.cover img:hover{
-    cursor: pointer;
+.cover_img:hover img {
     opacity: 0.5;
+    cursor: pointer;
 }
 .cover_img:hover .button_play i{
     display: block;
@@ -338,6 +338,10 @@ hr{
 .player_icon i{
     margin-right: 10px;
     font-size: 17px;
+}
+.song_title span:hover{
+    text-decoration: underline;
+    color: white;
 }
 @media screen and (max-width:768px){
     .player_icon{
