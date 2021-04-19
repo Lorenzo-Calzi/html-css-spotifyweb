@@ -70,6 +70,13 @@ main::after{
     border-radius: 25px;
     margin-right: 20px;
     font-weight: 600;
+    transition: 1s;
+}
+.title a:hover{
+    background-color: rgb(156, 231, 43);
+    color: black;
+    border: black;
+    animation-timing-function: linear;
 }
 /* /Title */
 
@@ -110,23 +117,26 @@ main::after{
     content: "\f144";
     margin: auto;
 }
-.generi ul li:first-child::after{
-    background-color: rgba(173, 255, 47, 1)
+.generi ul li:hover::after{
+    background-color: rgba(173, 255, 47, 1);   
 }
 /* /Generi */
 
 /* Albums */
-.cover img:hover{
-    cursor: pointer;
-    opacity: 0.5;
-}
 .cover_img:hover .button_play i{
     display: block;
 }
 .cover_img{
     position: relative;
     margin-top: 15px;
+    transition: 3px;
 } 
+.cover img:hover{
+    filter: blur(1px);
+    border-radius: 10%;
+    transform: scale(1.1); 
+    margin-bottom: 10px;
+}
 .button_play i{
     color: white;
     font-size: 50px;
@@ -248,7 +258,7 @@ main::after{
     background-color: black;
     content: "\f144";
 }
-.sezioni ul li:first-child::before{
+.sezioni ul li:hover::before{
     background-color: rgba(173, 255, 47, 1);
 }
 /* /Sezioni */
