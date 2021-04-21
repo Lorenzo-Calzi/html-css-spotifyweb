@@ -104,7 +104,7 @@
                     <a class="cursor" href="#">Effettua l'upgrade</a>
                 </div>
                 <!-- /TITLE -->
-    
+
                 <!-- GENERI -->
                 <div class="generi">
                     <ul class="text-uppercase">
@@ -133,10 +133,20 @@
                                 <i class="far fa-play-circle"></i>
                             </div> 
                         </div>
-                            <h5>Heavy Metal</h5>
-                            <h6>Subtitle</h6>
+
+                        <!-- ID ElementByID JS -->
+                        <div id="title_js">
+                            <!-- <h5>Heavy Metal</h5> -->
                         </div>
-                
+
+                        <script>
+                            document.getElementById('title_js').innerHTML = "Heavy Metal"
+                        </script>
+                        <!-- ID ElementByID JS -->
+
+                        <h6>Subtitle</h6>
+                    </div>
+
                     <div class="cover clearfix col-lg-2 col-md-3 col-6">
                         <div class="cover_img">
                             <img src="./img/stranger.jpeg" class="img-fluid" alt="cover stranger things">
@@ -197,7 +207,14 @@
                 <!-- TITLES CATEGORIES -->
                 <div class="title_categories">
                     <h3>Creato per John Doe</h3>
-                    <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+
+                    <!-- Use document writeLine -->
+                    <script>
+                        document.writeln('Più ascolti, più accurati saranno i suggerimenti.');
+                    </script>
+                    <!-- Use document writeLine -->
+
+                    <!-- <p>Più ascolti, più accurati saranno i suggerimenti.</p> -->
                 </div>
                 <!-- /TITLES CATEGORIES -->
     

@@ -103,6 +103,8 @@ main::after{
     margin-bottom: 15px;
     margin-left: 25px;
 }
+
+/* ID ElementByID JS  */
 #title_categories{
     color: white;
     font-weight: 600;
@@ -111,6 +113,8 @@ main::after{
     margin-left: 25px;
     font-size: 28px;
 }
+/* /ID ElementByID JS  */
+
 .title_categories p{
     color: rgba(125, 127, 132, 1);
     font-weight: 600;
@@ -161,6 +165,17 @@ main::after{
     text-align: center;
     margin-top: 10px;
 }
+
+/* ID ElementByID JS */
+#title_js{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+/* /ID ElementByID JS */
+
 .cover h6{
     color: rgba(125, 127, 132, 1);
     font-size: 13px;
