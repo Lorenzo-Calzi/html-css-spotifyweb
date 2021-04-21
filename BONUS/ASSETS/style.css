@@ -103,6 +103,14 @@ main::after{
     margin-bottom: 15px;
     margin-left: 25px;
 }
+#title_categories{
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    font-size: 28px;
+}
 .title_categories p{
     color: rgba(125, 127, 132, 1);
     font-weight: 600;
